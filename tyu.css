@@ -1,0 +1,99 @@
+.header-main {
+    background-color: #f8f9fa; /* Light background */
+    padding: 10px 20px; /* Add space around the content */
+    display: flex;
+    align-items: center; /* Vertically center content */
+    justify-content: center; /* Center the text in the middle */
+    position: relative; /* Enable positioning for icons */
+}
+
+.header-menu h5 {
+    margin: 0; /* Remove default margin */
+    font-size: 14px; /* Text size */
+    font-weight: normal; /* Adjust font weight */
+    color: #333; /* Text color */
+    text-align: center; /* Center align the text */
+}
+
+.header-menu h5 a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.header-menu h5 a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+.social-icons {
+    position: absolute; /* Position icons relative to the parent */
+    right: 20px; /* Align icons to the right */
+    top: 50%; /* Vertically align */
+    transform: translateY(-50%); /* Adjust position for perfect centering */
+    display: flex; /* Arrange icons in a row */
+    gap: 15px; /* Add space between icons */
+}
+
+.social-icons a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Icon color */
+    font-size: 20px; /* Adjust icon size */
+}
+
+.social-icons a:hover {
+    color: #007bff; /* Change icon color on hover */
+}
+.navbar {
+    background-color: white;
+    padding: 10px 20px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-brand .logo {
+    max-height: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 0100px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links a {
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #007bff;
+}
+
+.quote-btn .btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.quote-btn .btn:hover {
+    background-color: #0056b3;
+}
